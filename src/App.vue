@@ -10,7 +10,7 @@ cornerstoneWadoImageLoader.external.dicomParser = dicomParser;
 const image = ref(null);
 
 onMounted(async () => {
-  image.value = await cornerstone.loadAndCacheImage('wadouri:http://localhost:8080/good-image.dcm');
+  image.value = await cornerstone.loadAndCacheImage('wadouri:good-image.dcm');
 });
 </script>
 
